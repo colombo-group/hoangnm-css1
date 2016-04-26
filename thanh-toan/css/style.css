@@ -1,0 +1,472 @@
+/* dung chung */
+*{
+    font-family: "Times New Roman";
+}
+input:focus{
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+#background
+{
+    height: 1728px;
+    width: 1600px;
+    background: black;
+}
+/* phan top */
+.top
+{
+    height: 60px;
+    width: 1600px;
+    background: white;
+}
+#danh-muc
+{
+    float: left;
+    height: 60px;
+    width: 135px;
+
+}
+#dm1{
+    width: 27px;
+    height: 24px;
+    float: left;
+    margin: 21px 0 0 27px;
+}
+#dm1:hover{
+    -webkit-transform: scale(1.1);
+}
+#dm2{
+    font-size: 15px;
+    float: left;
+    margin: 25px 0 0 10px;
+    color: #666666;
+}
+#dm2:hover {
+    color: #1ca8c3;
+}
+#box-search
+{
+
+    float: left;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 240px;
+    margin: 14px 0 0 70px;
+    border-radius: 12px;
+
+}
+#search
+{
+    border-radius: 12px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+}
+#icon-search
+{
+    border-radius: 12px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    float: left;
+    width: 40px;
+    height: 30px;
+    background-image: url(../images/icon-tim-kiem.png);
+    background-size: 35px 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+#search:focus {
+    outline: none;
+}
+#icon-search:focus {
+    outline: none;
+}
+#icon-search:hover {
+    cursor: pointer;
+}
+#logo-top{
+    float: left;
+    width: 120px;
+    height: 60px;
+    margin: 0 0 0 300px;
+}
+.login
+{
+    font-size: 12px;
+    float: right;
+    margin: 26px 35px 0 0;
+}
+#dang-nhap{
+    padding: 9px 10px 5px 9px;
+    border-radius: 3px;
+    color: #1ca8c3;
+    border: 1px solid #fff;
+}
+#dang-ky
+{
+    color: #1ca8c3;
+    border: 1px solid #fff;
+    padding: 9px 10px 5px 9px;
+    border-radius: 3px;
+}
+#dang-nhap:hover{
+    color: #666666;
+    border-color:#1ca8c3;
+}
+#dang-ky:hover{
+    color: #666666;
+    border-color:#1ca8c3;
+}
+.content{
+    height: 1415px;
+    width: 1564px;
+    background-color: #f2f2f2;
+    float: left;
+    margin: -5px 0 0 0px;
+}
+.trai{
+    width: 280px;
+    height: 668px;
+    margin: 30px 0 0 200px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    float: left;
+}
+#anh-dai-dien{
+    margin: -100px 0 0 40px;
+    float: left;
+    text-align: center;
+}
+#thong-tin{
+    height: 283px;width: inherit;
+    float: left;
+    text-align: center;
+}
+#thong-tin p {
+    color: #b4b4b4;
+    margin-top: -15px;
+}
+
+#icon{
+    float: left;
+    margin-left: 75px;
+    margin-right: 55px;
+}
+#icon a {
+    margin-left: 10px;
+}
+#thong-tin a input{
+    float: left;
+    margin: 30px 0 0 75px;
+    width: 142px;
+    height: 38px;
+    background-color: #1ca8c3;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#tin-con {
+    height: 78px;
+    width: inherit;
+    float: left;
+}
+#tin-con li{
+    font-size: 12px;
+    width: 90px;
+    margin: 10px 40px 0 -40px;
+    float: left;
+    list-style-type: none;
+    height:50px;
+    padding-top: 15px;
+    border-right: 1px solid #e0e0e0;
+}
+#tin-con li p{
+    font-size: 12px;
+    color: #1ca8c3;
+}
+#thong-tin a input:focus{
+    outline: none;
+}
+.lien-ket{
+    float: left;
+    border-top: 1px solid #e0e0e0;
+    width: inherit;
+    height: 44px;
+}
+.lien-ket p {
+    margin-left: 30px;
+    float: left;
+    color: #666666;
+}
+.lien-ket img{
+    margin: 20px 20px 0 0;
+    float: right;
+}
+
+.phai{
+    width: 900px;
+    height: 1073px;
+    margin: 30px 0 0 20px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+}
+#tren{
+    width: 820px;
+    height: 260px;
+    margin-left: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.the{
+    margin-top: 20px;
+    width: 150px;
+    height: 100px;
+    border: 1px solid #1ca8c3;
+    border-radius: 2px;
+    float: left;
+    margin-right: 15px;
+}
+#the-tieng-anh{
+    background-color: #1ca8c3;
+}
+#the-tieng-anh p{
+    color: white;
+    margin-left: 12px;
+}
+#the-tieng-anh img{
+    margin-left: 50px;
+}
+#the-dt p{
+    color: #1ca8c3;
+    margin-left: 28px;
+}
+#the-dt img{
+    margin-left: 60px;
+}
+#gui-tin p{
+    color: #1ca8c3;
+    margin-left: 34px;
+}
+#gui-tin img{
+    margin-left: 50px;
+}
+#the-ngan-hang p{
+    color: #1ca8c3;
+    margin-left: 28px;
+}
+#the-ngan-hang img{
+    margin-left: 50px;
+}
+#chuyen-khoan p{
+    color: #1ca8c3;
+    margin-left: 28px;
+}
+#chuyen-khoan img{
+    margin-left: 50px;
+}
+#chuyen-khoan{
+    margin-right: -15px;
+}
+#duoi{
+    width: 820px;
+    height: 790px;
+    margin-left: 40px;
+}
+
+#duoi h2{
+    color: #1ca8c3;
+}
+#quy-doi{
+    width: inherit;
+    height: 55px;
+    background-color: #daf2f6;
+
+}
+#quy-doi ul li img{
+    float: left;
+    margin: 20px 10px 0 0px;
+}
+#quy-doi ul li p{
+    float:left;
+    margin: 20px 100px 0 0px;
+}
+#nap{
+    height: 385px;
+    width: inherit;
+    float: left;
+}
+#nhap{
+    height: inherit;
+    width: 350px;
+    float: left;
+    margin-top: 20px;
+}
+#nhap input{
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+#ma{
+    width: 320px;
+    height: 35px;
+    margin-top: 17px;
+    float: left;
+}
+#ma1{
+    width: 130px;
+    height: 35px;
+    margin-top: 17px;
+    float: left;
+}
+#nap img{
+    margin:10px 0 0 170px;
+
+}
+#button{
+    height: 35px;
+    width: 330px;
+    float: left;
+    margin-top: 17px;
+    background-color: #1ca8c3;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+#thong-tin-nap{
+    width: 840px;
+    height: 238px;
+    float: left;
+}
+#thong-tin-nap div {
+    float: left;
+    margin: 8px 0 0 0px;
+    width: inherit;
+    height: 30px;
+
+}
+
+#thong-tin-nap div img {
+    float: left;
+    padding: 12px 10px 0 0px;
+}
+
+#thong-tin-nap div p {
+    float: left;
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 7px 0 0 0px;
+    color: #666666;
+}
+#thong-tin-nap div a {
+    float: left;
+    font-size: 15px;
+    margin: 0px 0 0 10px;
+    padding: 7px 0 0 0px;
+    color: #666666;
+}
+#thong-tin-nap div a:hover {
+    color: #1ca8c3;
+}
+    /* menu dọc */
+#menu-doc{
+    width: 36px;
+    height: 1415px;
+    background-color: white;
+    float: left;
+    margin-top: -5px;
+}
+/* tài khoản */
+#img-tk{
+    margin: 280px 0 0 5px;
+}
+#img-tk:hover{
+    -webkit-transform: scale(1.05);
+}
+#tk {
+    margin-top: -5px;
+    color: #6d94a3;
+    text-align: center;
+    font-size: 12px;
+}
+#tk:hover{
+    color: #1ca8c3;
+}
+/* ngày học */
+#img-ngay{
+    margin: 40px 0 0 5px;
+}
+#img-ngay:hover{
+    -webkit-transform: scale(1.05);
+}
+#ngay {
+    margin-top: -5px;
+    color: #6d94a3;
+    text-align: center;
+    font-size: 12px;
+}
+#ngay:hover{
+    color: #1ca8c3;
+}
+/* thêm ngày */
+#img-them{
+    margin: 40px 0 0 5px;
+}
+#img-them:hover{
+    -webkit-transform: scale(1.05);
+}
+#them {
+    margin-top: -5px;
+    color: #6d94a3;
+    text-align: center;
+    font-size: 12px;
+}
+#them:hover{
+    color: #1ca8c3;
+}
+#fb {
+    margin: 55px 0 0 5px;
+}
+#gg {
+    margin: 30px 0 0 5px;
+}
+#tw {
+    margin: 30px 0 0 5px;
+}
+#back-to-top {
+    height: 55px;
+    margin-top: 100px;
+    background-color: #1ca8c3;
+
+}
+#bt{
+    height: 55px;
+    width: 36px;
+    background-color: #1ca8c3;
+    border: none;
+    cursor: pointer;
+}
+#bt:focus{
+    outline: none;
+}
+#bt:hover{
+    -webkit-transform: scale(0.9);
+}
+#img-back-to-top:hover{
+    -webkit-transform: scale(0.9);
+}
+#img-back-to-top{
+    margin: 5px 0 -8px -3px;
+}

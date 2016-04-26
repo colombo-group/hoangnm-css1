@@ -1,0 +1,759 @@
+/* dung chung */
+* {
+    font-family: "Times New Roman";
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+#background {
+    height: 3121px;
+    width: 1600px;
+    background: black;
+}
+
+/* phan top */
+.top {
+    height: 60px;
+    width: 1600px;
+    background: white;
+}
+
+#danh-muc {
+    float: left;
+    height: 60px;
+    width: 135px;
+
+}
+
+#dm1 {
+    width: 27px;
+    height: 24px;
+    float: left;
+    margin: 21px 0 0 27px;
+}
+
+#dm1:hover {
+    -webkit-transform: scale(1.1);
+}
+
+#dm2 {
+    font-size: 15px;
+    float: left;
+    margin: 25px 0 0 10px;
+    color: #666666;
+}
+
+#dm2:hover {
+    color: #1ca8c3;
+}
+
+#box-search {
+
+    float: left;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 240px;
+    margin: 14px 0 0 70px;
+    border-radius: 12px;
+
+}
+
+#search {
+    border-radius: 12px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#icon-search {
+    border-radius: 12px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    float: left;
+    width: 40px;
+    height: 30px;
+    background-image: url(../images/icon-tim-kiem.png);
+    background-size: 35px 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+#search:focus {
+    outline: none;
+}
+
+#icon-search:focus {
+    outline: none;
+}
+
+#icon-search:hover {
+    cursor: pointer;
+}
+
+#logo-top {
+    float: left;
+    width: 120px;
+    height: 60px;
+    margin: 0 0 0 300px;
+}
+
+.login {
+    font-size: 12px;
+    float: right;
+    margin: 26px 35px 0 0;
+}
+
+#dang-nhap {
+    padding: 9px 10px 5px 9px;
+    border-radius: 3px;
+    color: #1ca8c3;
+    border: 1px solid #fff;
+}
+
+#dang-ky {
+    color: #1ca8c3;
+    border: 1px solid #fff;
+    padding: 9px 10px 5px 9px;
+    border-radius: 3px;
+}
+
+#dang-nhap:hover {
+    color: #666666;
+    border-color: #1ca8c3;
+}
+
+#dang-ky:hover {
+    color: #666666;
+    border-color: #1ca8c3;
+}
+
+/* phan banner */
+#banner {
+    background-image: url(../images/bg_banner.png);
+    height: 100px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: 1600px 100px;
+}
+
+#menu {
+    list-style-type: none;
+    float: left;
+    padding: 16px 960px 0 4px;
+    margin-top: 0;
+
+}
+
+#menu li {
+    float: left;
+    color: white;
+    margin-right: 4px;
+    font-size: 11px;
+
+}
+
+#menu li a {
+    font-size: 11px;
+    color: white;
+}
+
+#tin-tuc {
+    float: left;
+    padding: 0 0 30px 200px;
+    font-size: 25px;
+    color: white;
+}
+
+#tin-tuc:hover {
+    color: #666666;
+}
+
+#menu li a:hover {
+    color: #666666;
+}
+
+/* phần chính */
+.content {
+    height: 2910px;
+    width: 1564px;
+    background-color: #f2f2f2;
+    float: left;
+    margin: -5px 0 0 0px;
+}
+
+.left {
+    height: 2669px;
+    width: 880px;
+    margin: 28px 0 0 200px;
+    float: left;
+}
+
+#page-on {
+    width: inherit;
+    height: 2048px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    background-color: white;
+}
+#tieu-de{
+    width: 840px;
+    height: 216px;
+    margin-left: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+#tieu-de h2{
+    color: #1ca8c3;
+}
+#tieu-de a input{
+    width: 100px;
+    height: 30px;
+    background-color: #1ca8c3;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+#tieu-de a input:focus{
+    outline: none;
+}
+#tieu-de a input:hover{
+    background-color: #666666;
+    color: #1ca8c3;
+}
+#tin-tieu-de{
+    line-height: 1.5;
+}
+#tin-page-on {
+    width: 840px;
+    height: 105px;
+    float: left;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 20px;
+}
+
+#tin-page-on div {
+    float: left;
+    margin: 3px 0 0 0px;
+    width: 840px;
+    height: 30px;
+
+}
+
+#tin-page-on div img {
+    float: left;
+    padding: 12px 10px 0 0px;
+}
+
+#tin-page-on div a p {
+    float: left;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 7px 0 0 0px;
+    color: #1ca8c3;
+}
+
+#tin-page-on div a p:hover {
+    color: #666666;
+}
+
+#tin-page-on div p {
+    float: left;
+    font-size: 12px;
+    margin-top: 0px;
+    color: #b4b4b4;
+    padding: 7px 0 0 5px;
+}
+#tin-chinh{
+    width: 840px;
+    height: 1155px;
+    border-bottom: 1px dashed #e0e0e0;
+    margin-left: 20px;
+    float: left;
+}
+#tin-chinh p{
+    float: left;
+    line-height: 2;
+    font-size: 14px;
+    padding-top: 10px;
+}
+#tin-chinh img {
+    float:left;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#comment{
+    width: 840px;
+    height: 495px;
+    margin-left: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    float: left;
+}
+#comment a{
+    margin: 20px 0 0 20px;
+}
+#comment a input{
+    margin-top: 20px;
+    background: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    color: #666666;
+}
+#comment a input:focus{
+    outline: none;
+}
+#binh-luan{
+    height: 383px;
+    width: 840px;
+    float: left;
+}
+#binh-luan p {
+    float: left;
+    font-size: 20px;
+}
+#binh{
+    width: 840px;
+    height: 82px;
+    background-color: #f2f2f2;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid #f7f7f7;
+}
+#binh img {
+    margin: 10px 10px 0 10px;
+    float: left;
+}
+#binh input{
+    margin-top: 11px;
+    float: left;
+    font-size: 12px;
+    border: 1px solid #b4b4b4;
+    padding-left: 10px;
+    color: #e0e0e0;
+}
+#binh a input{
+    border-radius: 0;
+    margin: 5px 16px 0 0;
+    width: auto;
+    float: right;
+    background-color: #6079ab;
+    color: white;
+    border: 1px solid #b4b4b4;
+}
+#binh input:focus{
+    outline: none;
+}
+
+#page-under {
+    height: 588px;
+    width: inherit;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-top: 31px;
+    background-color: white;
+}
+
+#tin-tuc-khac {
+    width: 268px;
+    height: 44px;
+    margin: 20px 0 0 -9px;
+    background: url(../images/bg_de-muc.png);
+
+}
+
+#tin-tuc-khac1 {
+    padding: 5px 10px 0 0;
+    font-size: 20px;
+    margin-left: 33px;
+    color: white;
+}
+
+#hinh-ngang {
+    width: inherit;
+    height: 254px;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 30px 0 0 0px;
+}
+
+#hinh-1 {
+    float: left;
+    margin-left: 20px;
+}
+
+#hinh-1 img:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#hinh-2 img:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#hinh-2 {
+    float: left;
+    margin-left: 25px;
+}
+
+#hinh-1 a h2 {
+    color: #666666;
+}
+
+#hinh-1 a h2:hover {
+    color: #1ca8c3;
+}
+
+#hinh-2 a h2 {
+    color: #666666;
+}
+
+#hinh-2 a h2:hover {
+    color: #1ca8c3;
+}
+
+#tin-page-under {
+    width: 840px;
+    height: 238px;
+    float: left;
+}
+
+#tin-page-under div {
+    float: left;
+    margin: 8px 0 0 20px;
+    width: inherit;
+    height: 30px;
+
+}
+
+#tin-page-under div img {
+    float: left;
+    padding: 12px 10px 0 0px;
+}
+
+#tin-page-under div a p {
+    float: left;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 7px 0 0 0px;
+    color: #1ca8c3;
+}
+
+#tin-page-under div a p:hover {
+    color: #666666;
+}
+
+#tin-page-under div p {
+    font-size: 12px;
+    margin-top: 0px;
+    color: #b4b4b4;
+    padding: 7px 0 0 5px;
+}
+
+/* sibar */
+#sibar {
+    width: 310px;
+    height: 1692px;
+    margin: 43px 0 0 20px;
+    float: left;
+}
+
+#khoa-hoc {
+    margin-top: -15px;
+    float: left;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    width: 300px;
+    height: 928px;
+}
+
+#img-kh {
+    margin-top: 4px;
+}
+#kh1{
+    margin: 24px 20px 0 0 ;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px 0 30px;
+}
+.kh {
+    width: 268px;
+    height: 44px;
+    margin: 20px 0 0 -9px;
+    background: url(../images/bg_de-muc.png);
+
+}
+#on-thi {
+    border-bottom: 1px solid #e0e0e0;
+    width: 260px;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#on-thi img:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#on-thi a h2 {
+    padding-left: 20px;
+    margin-top: -5px;
+    padding-top: 10px;
+    color: #666666;
+}
+
+#on-thi a h2:hover {
+    color: #1ca8c3;
+}
+
+#on-thi p {
+    padding-left: 20px;
+    margin-top: -15px;
+    color: #b4b4b4;
+}
+
+#on-thi1 {
+    width: 260px;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#on-thi1 img:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#on-thi1 a h2 {
+    padding-left: 20px;
+    margin-top: -5px;
+    padding-top: 10px;
+    color: #666666;
+}
+
+#on-thi1 a h2:hover {
+    color: #1ca8c3;
+}
+
+#on-thi1 p {
+    padding-left: 20px;
+    margin-top: -15px;
+    color: #b4b4b4;
+}
+
+#right {
+    margin-top: 37px;
+    float: left;
+    margin-left: 0px;
+    width: 300px;
+    height: 600px;
+    border: 1px solid #ee4054;
+}
+
+#qc {
+    height: 54px;
+    float: left;
+}
+
+.img {
+    margin: 9px 12px 0 20px;
+    float: left;
+}
+
+.img:hover {
+    -webkit-transform: scale(1.1);
+}
+
+.tin {
+    margin: 19px 20px 0 0;
+}
+
+.tin a:hover {
+    color: #1ca8c3;
+}
+
+#img-1 {
+    margin: 24px 12px 0 20px;
+}
+
+.tin a {
+    color: black;
+}
+
+#qc-1 {
+    float: right;
+    margin: 3px 3px 0 0;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    height: 178px;
+}
+
+#qc-1:hover {
+    -webkit-transform: scale(1.1);
+}
+
+#qc-2 {
+    float: left;
+    margin: 3px 0 0 3px;
+    height: 178px;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+#qc-2:hover {
+    -webkit-transform: scale(1.1);
+}
+
+.qc-3 {
+    border-bottom: 1px solid #dddddd;
+}
+
+.qc-4 {
+    border-top: 1px solid #dddddd;
+}
+
+#quan-tam {
+
+    margin: 37px 0 0 0;
+    float: left;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    width: 300px;
+    height: 450px;
+}
+
+#img-qt {
+    margin-top: 4px;
+}
+
+#qt1{
+    margin: 24px 20px 0 0 ;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px 0 30px;
+}
+.qt {
+    width: 268px;
+    height: 44px;
+    margin: 20px 0 0 -9px;
+    background: url(../images/bg_de-muc.png);
+
+}
+/* menu dọc */
+#menu-doc {
+    width: 36px;
+    height: 2910px;
+    background-color: white;
+    float: left;
+    margin-top: -5px;
+}
+
+/* tài khoản */
+#img-tk {
+    margin: 280px 0 0 5px;
+}
+
+#img-tk:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#tk {
+    margin-top: -5px;
+    color: #6d94a3;
+    text-align: center;
+    font-size: 12px;
+}
+
+#tk:hover {
+    color: #1ca8c3;
+}
+
+/* ngày học */
+#img-ngay {
+    margin: 40px 0 0 5px;
+}
+
+#img-ngay:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#ngay {
+    margin-top: -5px;
+    color: #6d94a3;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ngay:hover {
+    color: #1ca8c3;
+}
+
+/* thêm ngày */
+#img-them {
+    margin: 40px 0 0 5px;
+}
+
+#img-them:hover {
+    -webkit-transform: scale(1.05);
+}
+
+#them {
+    margin-top: -5px;
+    color: #6d94a3;
+    text-align: center;
+    font-size: 12px;
+}
+
+#them:hover {
+    color: #1ca8c3;
+}
+
+#fb {
+    margin: 55px 0 0 5px;
+}
+
+#gg {
+    margin: 30px 0 0 5px;
+}
+
+#tw {
+    margin: 30px 0 0 5px;
+}
+
+#back-to-top {
+    height: 55px;
+    margin-top: 100px;
+    background-color: #1ca8c3;
+
+}
+
+#bt {
+    height: 55px;
+    width: 36px;
+    background-color: #1ca8c3;
+    border: none;
+    cursor: pointer;
+}
+
+#bt:focus {
+    outline: none;
+}
+
+#bt:hover {
+    -webkit-transform: scale(0.9);
+}
+
+#img-back-to-top:hover {
+    -webkit-transform: scale(0.9);
+}
+
+#img-back-to-top {
+    margin: 5px 0 -8px -3px;
+}
